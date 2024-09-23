@@ -10,9 +10,24 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@tailwindcss/typography": "^0.5.15",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.445.0",
     "nuxt": "^3.13.0",
+    "radix-vue": "^1.9.6",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.5.2",
+    "tailwindcss-animate": "^1.0.7",
+    "typescript": "^5.6.2",
     "vue": "latest",
     "vue-router": "latest"
   },
-  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b"
+  "packageManager": "pnpm@9.11.0+sha512.0a203ffaed5a3f63242cd064c8fb5892366c103e328079318f78062f24ea8c9d50bc6a47aa3567cabefd824d170e78fa2745ed1f16b132e16436146b7688f19b",
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "postcss": "^8.4.47",
+    "autoprefixer": "^10.4.20",
+    "tailwindcss": "^3.4.12"
+  }
 }
