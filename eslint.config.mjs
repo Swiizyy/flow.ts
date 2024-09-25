@@ -19,6 +19,7 @@ export default withNuxt(
   // Rules config
   {
     rules: {
+      'vue/singleline-html-element-content-newline': 'error',
       "vue/require-default-prop": 0,
       "vue/multi-word-component-names": 0,
       "@typescript-eslint/ban-types": 0,
